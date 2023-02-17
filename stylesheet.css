@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;700&family=Kanit&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgba(1, 10, 10, 0.568);
+    background-image: url(img/cato.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.6;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    padding: 21px;
+    color: black;
+    border:2px solid black ;
+    border-radius: 8px;
+    margin: 8px 3px;
+    cursor: pointer;    
+}
+
+.rows input {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding: 12px 0px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.bg {
+    background-color: aqua;
+}
